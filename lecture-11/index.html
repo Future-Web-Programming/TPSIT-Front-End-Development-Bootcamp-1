@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecute -011</title>
+</head>
+<body>
+    <h2>HTML Image Map - Picture Element - Lists </h2>
+    <!--HTML Image Map <  -->
+    <img src="https://www.keycdn.com/img/support/full-stack-development.png" alt="FUll Stack" usemap="#fullstack">
+    <map name="fullstack">
+        <area shape="rect" coords="430,279,523,367" href="https://javascript.info/" target="_blank" alt="">
+        <area shape="poly" coords="835,166,903,126,907,151,890,182" href="https://spring.io/projects/spring-boot" target="_blank" alt="">
+    </map>
+    <!-- HTML Picture Element -->
+     <picture>
+        <source srcset="https://www.keycdn.com/img/support/full-stack-development.png" media="(max-width: 600px)">
+        <source srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLkYvjzKj01nTssE-0G5jE_xHxshu5sM0GQtb2EgqRlb4mYqPR62ZfjKo&s" media="(min-width: 1000px)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtM2-EyRjFcpAuCQ_K7I0-ZadCznWJUpXTg&s" alt="">
+     </picture>
+
+</body>
+</html>
