@@ -1,4 +1,4 @@
-# Lecture - 015  HTML Forms
+# Lecture - 015  HTML Form
 
 ## Create 3 Different forms, you can search realted html template forms on internet to gain idea 
 
