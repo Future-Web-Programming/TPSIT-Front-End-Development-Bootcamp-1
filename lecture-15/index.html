@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- starting form -->
+     <form >
+        <fieldset>
+            <legend>Sign up</legend>
+        <label for="username">UserName: *</label>
+        <input type="text" placeholder="Enter your Username" id="username" name="username" required> 
+        <label>Select your Favorite Languages:</label>
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="lang" value="html" required>
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="lang" value="css" required>
+        <p >Chose your Favourite Color</p><br>
+        <label for="black">Black</label>
+        <input type="radio" id="black" name="color" value="black" required>
+        <label for="yellow">Yellow</label>
+        <input type="radio" id="yellow" name="color" value="yellow" required><br><br>
+        <label for="">Write your Message: * </label><br>
+        <textarea required name="message" placeholder="I want a basic 5 Pages Website...." rows="10" cols="100"></textarea>
+        <label for="">upload your Avatar: *</label>
+        <input type="file" required name="file">
+        <input type="submit" value="Register">
+    </fieldset>
+     </form>
+</body>
+</html>
