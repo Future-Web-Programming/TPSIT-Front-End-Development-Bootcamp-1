@@ -320,3 +320,8 @@ h1{
 alpha parameter is a number between `0.0` (fully transparent) and `1.0` (not transparent at all)
 
 ```css
+
+h1{
+    background-color: hsla(120, 50%, 50%,0.5);
+}
+```
