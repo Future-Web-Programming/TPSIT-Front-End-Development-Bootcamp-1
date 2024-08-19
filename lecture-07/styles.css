@@ -1,0 +1,39 @@
+/* external font */
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    
+}
+
+.container{
+    margin: auto;
+    max-width: 800px;
+    /* font-family: "New Amsterdam", sans-serif; */
+    font-family: "Sofia", sans-serif;
+
+}
+
+.main-heading{
+    color:crimson;
+    font-size: 2vw; 
+
+}
+.main-para{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    font-size: 2vw;
+
+   
+}
+.important-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 20px; */
+    color: crimson;
+    font-weight: 900;
+}
