@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    /* margin-top:20px; */
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.9),rgba(255, 166, 0, 0.4)),url('https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/06/Website-Development-alt-1.webp');
+    width: 100vw;
+    height: 80vh;
+    /* background-image: linear-gradient( rgba(0,0,255,0.2),rgba(0,0,255,0.9),rgba(0,0,255,0.2)); */
+    /* filter: drop-shadow(12px 40px 20px orange); */
+    /* filter: grayscale(90%); */
+    filter: saturate(130%);
+    /* background-image: linear-gradient(), url(); */
+    filter: blur(2px);
+    
+}
