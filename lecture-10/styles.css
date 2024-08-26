@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+
+.top-header{
+    border: 12px solid red;
+}
+.top-header .top-navbar{
+    border: 12px solid rosybrown;
+}
+.top-header .top-navbar .logo .yt-logo{
+    border: 10px solid green;
+    width: 100px;
+} 
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    
+}
+.main div:first-child{
+    position: sticky;
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    top: 0;
+}
+.container{
+    border: 2px solid;
+    /* width: 1200px; */
+    height: 50vh;
+    /* background-color: orange; */
+    
+}
+.yt-card{
+    /* border: 12px solid blue; */
+    width: 600px;
+}
+.yt-card .yt-card-header .yt-thumb{
+    width: 100%;
+}
+.yt-card-header{
+    /* border: 12px solid orange; */
+    position: relative;
+}
+.yt-card .yt-card-header .vid-duration{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 6px 12px rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.6);
+    padding: 4px 10px;
+}
+
+.gototop{
+    box-shadow: 2px 12px 21px 20px rgba(0,0,0,0.2) ;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+}
+
+.content{
+    width: 100%;
+    height: 20vh;
+    background-color: orchid;
+    border: 2px solid;
+    font-size: 100px;
+    margin-top: 200px;
+    position: relative;
+}
+.inner-content{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 2px solid crimson;
+}
+.content div:first-child{
+    position: absolute;
+    border: 2px solid orange;
+    z-index: -1000;
+    left: 400px;
+    top: 200px;
+}
