@@ -48,13 +48,14 @@ flex items properties
 }
 #item2{
     flex-grow: 30;
+    
 }
 #item1{
     flex-grow: 1;
 }
+
 #item2 nav ul li{
     list-style: none;
-
 }
 #item2 nav ul li a{
     text-decoration: none;

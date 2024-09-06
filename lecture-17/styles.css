@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+.container{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,2fr);
+}
