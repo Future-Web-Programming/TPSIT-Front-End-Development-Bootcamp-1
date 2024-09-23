@@ -1,4 +1,4 @@
-# CSS Complete Course from beginner to Advance.
+# Boostrap Complete Course from beginner to Advance.
 
 In this Course we will cover all the aspcects of CSS from basic to Advance. 
 
