@@ -1,0 +1,55 @@
+/* define variables in top of your css stylesheet */
+
+:root{
+    --h2-color: #3bc9db;
+    --h2-font-size: 30px;
+    --h1-font-size: 96px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background: #111;
+    color: crimson;
+}
+
+/* define variables for indivdiual anyything */
+.box{
+    --bg-color: #fff;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-heading{
+    --h2-color: #f7ff19;
+    color: var(--h2-color);
+    text-align: center;
+    font-size: var(--h1-font-size);
+}
+
+.box{
+    border: 2px solid #fff;
+    background-color: var(--bg-color);
+
+}
+.card{
+    --bg-color: #ff0;
+}
+.card{
+    background-color: var(--bg-color);
+}
+.box .second-heading{
+    color: var(--h2-color);
+    font-size: var(--h2-font-size);
+}
