@@ -43,14 +43,14 @@
 
 // Object
 
-const person = {
-    firstName: "Ghazi",
-    lastName: 'Orhan',
-    rollNumber: 20,
-    status: true,
-}
+// const person = {
+//     firstName: "Ghazi",
+//     lastName: 'Orhan',
+//     rollNumber: 20,
+//     status: true,
+// }
 
-console.log(person.rollNumber);
+// console.log(person.rollNumber);
 
 // Arrays
 
