@@ -1,4 +1,4 @@
-# lecture -05 Javascript Objects
+# lecture -07 Javascript Objects
 
 
 in this lecture we have studied about javascript Objects. what are object properties and methods, how we can define object, what are properrrtiess and methods, 
