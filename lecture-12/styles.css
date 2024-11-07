@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+    color: dodgerblue;
+}
+#main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.main-heading{
+    font-size: 4rem;
+    color: crimson;
+    text-decoration: unerline;
+
+
+}
